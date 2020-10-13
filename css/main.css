@@ -1,0 +1,243 @@
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #000;
+    display: flex;
+    padding-bottom: 3px;
+}
+
+nav{
+    margin-top: 40px;
+    margin-left: 25%;
+    /*margin-right: 130px;*/
+}
+
+body{
+    background-color: black;
+}
+
+.topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+#welcome{
+    background-color: black;
+    color: white;
+}
+h1, h3{
+    text-align: center;
+    color: #fcac45;
+}
+
+#welcomeText{
+    text-align: center;
+}
+
+.main__team{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.team__cards{
+
+    margin-top: 50px;
+    display: flex;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.main__services .card{
+    margin: 0 24px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.position{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+
+.about__position{
+    font-size: 14px;
+}
+
+.main__services{
+    background: #fff;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #222222;
+}
+
+
+
+
+#rightFirstButton{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#rightDownMenu{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .main__about{
+    display: flex;
+    padding: 100px 0 100px 0;
+    color: white;
+}
+.about__right{
+    margin-left: 200px;
+}
+
+.about__right h1{
+    font-weight: normal;
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.about__right p{
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
+.about__right li{
+    color: #5a5a5a;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.mw-100{
+    width: 600px;
+    /*margin-top: -5px;*/
+
+}
+
+#displayInfoAboutCar{
+    margin-left: 200px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    #welcomeText{
+        text-align: center;
+    }
+
+    nav{
+        margin-left: 10%;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+
+    header .topnav.responsive {
+        height: 340px;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .team__cards{
+        flex-direction: column;
+    }
+
+    .main__about{
+        flex-direction:  column;
+    }
+    .about__right{
+        text-align:  center;
+    }
+    .about__right li{
+        text-align: left;
+    }
+    .mw-100{
+        margin-left: 25%;
+        max-width: 100%;
+    }
+    #displayInfoAboutCar{
+        margin-left: 20px;
+    }
+}
+
+
+

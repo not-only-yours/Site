@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>Company</title>
+    <link rel = "stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/paralax.css">
+</head>
+
+<body>
+<header>
+    <img src="images/MenuButton.png" id="rightFirstButton" width="50px">
+    <div id = "rightDownMenu">
+        <img src="images/ToTopButton.png"  width="50px" style="margin-bottom: 5px">
+        <img src="images/SeeCarsButton.png"  width="50px" style="margin-bottom: 5px">
+        <img src="images/ConfigurateButton.png"  width="50px" style="margin-bottom: 5px">
+        <img src="images/buttonExit.png" id = "close"  width="50px">
+    </div>
+    <img id = "logo" src="images/logo.webp" width="150px">
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">TESTIMONIALS</a>
+            <a href="#">CONTACT</a>
+            <a href="#" id="menu" class="icon">&#9776;</a>
+            </div>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <div id="welcome">
+            <div id = "welcomeText">
+                <img src="images/logo.webp" width="200px" >
+                <h1>Welcome to my site</h1>
+            <p>There you can find some information about cars</p>
+            </div>
+        </div>
+
+    <div class="main__team" style="margin-top: 50px;background-image: url(images/1.jpg); ">
+        <div class="wrapper">
+            <h3>OUR CARS</h3>
+            <div class="team__cards">
+                <div class="card">
+                    <div class="photo" style="background-image: url(images/firstCar.jpg); background-size: 190px "></div>
+                    <h4 class="name">Mercedes-Benz</h4>
+                    <p class="position">S-Class 6.3 AMG, 2014 г.</p>
+                    <button class="configurateButton" id = "firstConfBut">Configurate</button>
+                </div>
+                <div class="card">
+                    <div class="photo" style="background-image: url(images/Car2.jpg); background-size: 190px"></div>
+                    <h4 class="name">BMW</h4>
+                    <p class="position">X5 M 50 D, 2019г.</p>
+                    <button class="configurateButton" id = "secondConfBut">Configurate</button>
+                </div>
+                <div class="card">
+                    <div class="photo" style="background-image: url(images/Car3.jpeg); background-size: 190px"></div>
+                    <h4 class="name">Audi Q7 Diesel</h4>
+                    <p class="position">2015 г.</p>
+                    <button class="configurateButton" id = "thirdConfBut">Configurate</button>
+                </div>
+                <div class="card">
+                    <div class="photo"style="background-image: url(images/Car4.jpeg); background-size: 190px"></div>
+                    <h4 class="name">Tesla</h4>
+                    <p class="position">Model X 100 D , 2020 г.</p>
+                    <button class="configurateButton" id = "fouthConfBut">Configurate</button>
+                </div>
+                </div>
+        </div>
+    </div>
+    </section>
+
+    <div id="displayInfoAboutCar">
+        <div class = "main__about">
+            <div class = "about__left">
+                <img class="mw-100" id = "confFirst" src="images/firstCar.jpg">
+                <img class="mw-100" id = "confSecond" src="images/car2.jpg" style="display: none">
+                <img class="mw-100" id = "confThird" src="images/car3.jpeg" style="display: none">
+                <img class="mw-100" id = "confFouth" src="images/car4.jpeg" style="display: none">
+            </div>
+            <div class = "about__right">
+                <h1>Configurator</h1>
+                <p>There you can check prise of car with different complectation</p>
+                <ul>
+                    <li>Mission - We deliver uniqueness and quality</li>
+                    <li>Skills - Delivering fast and excelent results</li>
+                    <li>Clients - satisfied clients thank to our experience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="paralax">
+    <div class="layer-01" id = "ground">
+        <img class="paralaxPhoto" src="css/images/paralax1.png">
+    </div>
+    <div class="layer-02" id ="car" >
+        <img class="paralaxPhoto" src="css/images/paralax2.png">
+    </div>
+    <div class="layer-03" id = "water">
+        <img class="paralaxPhoto" src="css/images/paralax3.png">
+    </div>
+    <div class="layer-04" id = "bridge">
+        <img class="paralaxPhoto" src="css/images/paralax4.png">
+    </div>
+    <div class="layer-05" id = "town">
+        <img class="paralaxPhoto" src="css/images/paralax5.png">
+    </div>
+</div>
+</main>
+<script src="js/main.js"></script>
+<script src="js/paralax.js"></script>
+</body>
+</html>
