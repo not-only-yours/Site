@@ -1,20 +1,35 @@
-.paralaxPhoto{
+.paralax{
+    position: relative;
     width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paralax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
 }
 
-.layer-02{
-    margin-top: -1180px;
+.paralax:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, black,transparent);
+
 }
 
-.layer-03{
-    margin-top: -1180px;
+#text{
+    position: relative;
+    color: #fcac45;
+    font-size: 10em;
+    z-index: 1;
 }
-
-.layer-04{
-    margin-top: -1180px;
-}
-
-.layer-05{
-    margin-top: -1180px;
-}
-
