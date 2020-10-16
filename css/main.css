@@ -5,6 +5,7 @@ header{
     background: #000;
     display: flex;
     padding-bottom: 3px;
+    z-index: 1000000;
 }
 
 nav{
