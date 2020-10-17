@@ -16,6 +16,7 @@ nav{
 
 body{
     background-color: black;
+
 }
 
 .topnav a{
@@ -54,6 +55,7 @@ h1, h3{
     color: #fff;
 }
 .main__team h1{
+    margin-top: -30px;
     font-size: 44px;
     padding-bottom: 20px;
 }
@@ -147,7 +149,7 @@ main .main__about{
 }
 .about__right p{
     margin: 30px 0 50px 0;
-    color: #6c6c6c;
+    color: white;
 }
 .about__right li{
     color: #5a5a5a;
@@ -156,12 +158,13 @@ main .main__about{
 }
 .mw-100{
     width: 600px;
-    /*margin-top: -5px;*/
+    margin-top: 25%;
 
 }
 
 #displayInfoAboutCar{
     margin-left: 200px;
+    display: none;
 }
 
 
@@ -232,6 +235,7 @@ main .main__about{
         text-align: left;
     }
     .mw-100{
+        margin-top: 0;
         margin-left: 25%;
         max-width: 100%;
     }
@@ -240,5 +244,99 @@ main .main__about{
     }
 }
 
+.topMenu{
+    top: 0;
+}
+
+.gridMenu{
+    display: grid;
+}
 
 
+
+
+
+button {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color:#eae0c2;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-size:14px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+button:hover {
+    background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color:#ccc2a6;
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+
+input{
+    border: 3px ridge powderblue;
+    outline:0;
+    height:25px;
+    width: 275px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+}
+.post-detail, .post {
+    font-family: 'Arimo', sans-serif;
+}
+.post-detail {
+    width: 30%;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.post-info {
+    color: #be9656;
+    font-style: italic;
+    position: relative;
+    display: block;
+    font-size: 13px;
+}
+.post-info:before {
+    content: "";
+    border-bottom: 1px solid #be9656;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
+.post-info span {
+    display: inline-block;
+    padding: 0 1.2em;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.7;
+    color: white;
+}
+
+.colors{
+    margin-top:10px;
+    width: 30px;
+    height: 30px;
+    border: 4px inset powderblue
+}

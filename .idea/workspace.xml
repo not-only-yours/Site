@@ -48,12 +48,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\css" />
-      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
     </key>
   </component>
@@ -68,6 +68,8 @@
       <workItem from="1602360879691" duration="21764000" />
       <workItem from="1602514747604" duration="13769000" />
       <workItem from="1602775253952" duration="1551000" />
+      <workItem from="1602837407044" duration="151000" />
+      <workItem from="1602939814204" duration="10652000" />
     </task>
     <servers />
   </component>
@@ -84,6 +86,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602484224797">

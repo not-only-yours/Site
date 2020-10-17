@@ -13,13 +13,14 @@
 <header>
     <img src="images/MenuButton.png" id="rightFirstButton" width="50px">
     <div id = "rightDownMenu">
-        <img src="images/ToTopButton.png"  width="50px" style="margin-bottom: 5px">
-        <img src="images/SeeCarsButton.png"  width="50px" style="margin-bottom: 5px">
-        <img src="images/ConfigurateButton.png"  width="50px" style="margin-bottom: 5px">
+        <img src="images/ToTopButton.png"  width="50px" style="margin-bottom: 5px" onclick="topFunction()">
+        <img src="images/SeeCarsButton.png"  width="50px" style="margin-bottom: 5px" onclick="seeCar()">
+        <img src="images/ConfigurateButton.png"  width="50px" style="margin-bottom: 5px" onclick="seeConf()">
         <img src="images/buttonExit.png" id = "close"  width="50px">
     </div>
-    <img id = "logo" src="images/logo.webp" width="150px">
-    <nav>
+
+    <img class="topMenu" id = "logo" src="images/logo.webp" width="150px">
+    <nav id="topMenuOne">
         <div class="topnav" id="myTopnav">
             <a href="#">HOME</a>
             <a href="#">ABOUT</a>
@@ -30,8 +31,8 @@
             <a href="#" id="menu" class="icon">&#9776;</a>
             </div>
     </nav>
-</header>
 
+</header>
 <main>
     <div class="paralax">
         <img src="css/images/paralax5.png" id = "town">
@@ -43,39 +44,40 @@
     </div>
     <section>
 
-    <div class="main__team" style="margin-top: 50px;background-image: url(images/1.jpg); ">
+    <div id = "cars" class="main__team" style="margin-top: 50px;background-image: url(images/1.jpg); ">
         <div class="wrapper">
-            <h3>OUR CARS</h3>
+            <h1>Our cars</h1>
             <div class="team__cards">
                 <div class="card">
                     <div class="photo" style="background-image: url(images/firstCar.jpg); background-size: 190px "></div>
                     <h4 class="name">Mercedes-Benz</h4>
                     <p class="position">S-Class 6.3 AMG, 2014 г.</p>
-                    <button class="configurateButton" id = "firstConfBut">Configurate</button>
+                    <button class="configurateButton" id = "firstConfBut" onclick="first()">Configurate</button>
                 </div>
                 <div class="card">
                     <div class="photo" style="background-image: url(images/Car2.jpg); background-size: 190px"></div>
                     <h4 class="name">BMW</h4>
                     <p class="position">X5 M 50 D, 2019г.</p>
-                    <button class="configurateButton" id = "secondConfBut">Configurate</button>
+                    <button class="configurateButton" id = "secondConfBut" onclick="second()">Configurate</button>
                 </div>
                 <div class="card">
                     <div class="photo" style="background-image: url(images/Car3.jpeg); background-size: 190px"></div>
                     <h4 class="name">Audi Q7 Diesel</h4>
                     <p class="position">2015 г.</p>
-                    <button class="configurateButton" id = "thirdConfBut">Configurate</button>
+                    <button class="configurateButton" id = "thirdConfBut" onclick="third()">Configurate</button>
                 </div>
                 <div class="card">
                     <div class="photo"style="background-image: url(images/Car4.jpeg); background-size: 190px"></div>
                     <h4 class="name">Tesla</h4>
                     <p class="position">Model X 100 D , 2020 г.</p>
-                    <button class="configurateButton" id = "fouthConfBut">Configurate</button>
+                    <button class="configurateButton" id = "fouthConfBut" onclick="fouth()">Configurate</button>
                 </div>
                 </div>
         </div>
     </div>
     </section>
-
+    <h1 style="margin-top: 60px">Configurator</h1>
+    <h1 id="conf" style="margin-bottom: 600px">Check car to configurate it</h1>
     <div id="displayInfoAboutCar">
         <div class = "main__about">
             <div class = "about__left">
@@ -84,14 +86,35 @@
                 <img class="mw-100" id = "confThird" src="images/car3.jpeg" style="display: none">
                 <img class="mw-100" id = "confFouth" src="images/car4.jpeg" style="display: none">
             </div>
-            <div class = "about__right">
-                <h1>Configurator</h1>
+
+            <div class = "about__right" >
+
                 <p>There you can check prise of car with different complectation</p>
-                <ul>
-                    <li>Mission - We deliver uniqueness and quality</li>
-                    <li>Skills - Delivering fast and excelent results</li>
-                    <li>Clients - satisfied clients thank to our experience</li>
-                </ul>
+                <div class="gridMenu">
+                    <div >
+                         <p>One of colour</p>
+                            <div id="colours" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                                <div class="colors" id ="blue" style=" background-color: blue"></div>
+                                <div class="colors" id ="black" style=" background-color: black"></div>
+                                <div class="colors" id ="white" style=" background-color: white"></div>
+                                <div class="colors" id ="green" style=" background-color: green"></div>
+                                <div class="colors" id ="orange" style=" background-color: orange"></div>
+                                <div class="colors" id ="grey" style=" background-color: gray"></div>
+                            </div>
+                    </div>
+                    <div>
+                        <p>Complectation</p>
+                        <button>cheap</button>
+                        <button>medium</button>
+                        <button>maximum</button>
+                    </div>
+                    <div>
+                        <p>Write your email for know prise</p>
+                        <input type="text">
+                        <button>Submit</button>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
