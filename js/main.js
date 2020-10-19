@@ -3,11 +3,15 @@ $(window).on('beforeunload', function (){
 })
 
 menu.onclick = function() {
-    var x =document.getElementById('myTopnav');
-    if(x.className ==="topnav"){
-        x.className+=" responsive";
-    }else
+
+    var x = document.getElementById('myTopnav');
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        document.getElementById('logo').style.display = "none"
+    } else {
         x.className = "topnav";
+        document.getElementById('logo').style.display = "flex"
+    }
 }
 
 

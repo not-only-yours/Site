@@ -25,6 +25,7 @@ body{
     padding: 12px 16px;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .topnav a:hover{
@@ -46,6 +47,10 @@ h1, h3{
 
 #welcomeText{
     text-align: center;
+}
+
+#mainPhotoParalax{
+    display: none;
 }
 
 .main__team{
@@ -178,9 +183,6 @@ main .main__about{
         margin-left: 10%;
     }
 
-    #logo{
-        display: none;
-    }
 
     .topnav a {
         display: none;
@@ -221,6 +223,7 @@ main .main__about{
         margin-left: 100px;
     }
 
+
     .team__cards{
         flex-direction: column;
     }
@@ -242,6 +245,7 @@ main .main__about{
     #displayInfoAboutCar{
         margin-left: 20px;
     }
+
 }
 
 .topMenu{
@@ -252,12 +256,17 @@ main .main__about{
     display: grid;
 }
 
+#colours{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 
 
 
 button {
-    box-shadow: 0px 1px 0px 0px #1c1b18;
+    box-shadow: 0 1px 0 0 #1c1b18;
     background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
     background-color:#eae0c2;
     border-radius:15px;
@@ -268,13 +277,15 @@ button {
     font-size:14px;
     font-weight:bold;
     padding:12px 16px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
+    text-decoration: none;
+    text-shadow:0 1px 0 #ffffff;
 }
+
 button:hover {
     background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
     background-color:#ccc2a6;
 }
+
 button:active {
     position:relative;
     top:1px;
@@ -331,7 +342,6 @@ p {
     color: white;
     font-size: 20px;
     line-height: 1.7;
-    color: white;
 }
 
 .colors{
@@ -340,3 +350,4 @@ p {
     height: 30px;
     border: 4px inset powderblue
 }
+

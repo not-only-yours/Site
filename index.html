@@ -7,6 +7,7 @@
     <title>Company</title>
     <link rel = "stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/paralax.css">
+    <link rel="stylesheet" href="css/phone.css">
 </head>
 
 <body>
@@ -34,7 +35,9 @@
 
 </header>
 <main>
-    <div class="paralax">
+    <section>
+        <img src="css/images/paralaxMainPhoto.jpg" id = "mainPhotoParalax">
+    <div class="paralax" style="width: 100%">
         <img src="css/images/paralax5.png" id = "town">
         <img src="css/images/paralax4.png" id = "bridge">
         <img src="css/images/paralax3.png" id = "water">
@@ -42,8 +45,8 @@
         <img src="css/images/paralax1.png" id = "ground">
         <h1 id = "text">Welcome to my site!</h1>
     </div>
+    </section>
     <section>
-
     <div id = "cars" class="main__team" style="margin-top: 50px;background-image: url(images/1.jpg); ">
         <div class="wrapper">
             <h1>Our cars</h1>
@@ -76,6 +79,7 @@
         </div>
     </div>
     </section>
+    <section>
     <h1 style="margin-top: 60px">Configurator</h1>
     <h1 id="conf" style="margin-bottom: 600px">Check car to configurate it</h1>
     <div id="displayInfoAboutCar">
@@ -93,7 +97,7 @@
                 <div class="gridMenu">
                     <div >
                          <p>One of colour</p>
-                            <div id="colours" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+                            <div id="colours">
                                 <div class="colors" id ="blue" style=" background-color: blue"></div>
                                 <div class="colors" id ="black" style=" background-color: black"></div>
                                 <div class="colors" id ="white" style=" background-color: white"></div>
@@ -102,23 +106,22 @@
                                 <div class="colors" id ="grey" style=" background-color: gray"></div>
                             </div>
                     </div>
-                    <div>
+                    <div class="complectation">
                         <p>Complectation</p>
-                        <button>cheap</button>
-                        <button>medium</button>
-                        <button>maximum</button>
+                        <div><button>cheap</button></div>
+                        <div class="buttConf"><button >medium</button></div>
+                        <div class="buttConf"><button >maximum</button></div>
                     </div>
                     <div>
                         <p>Write your email for know prise</p>
                         <input type="text">
                         <button>Submit</button>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    </section>
 </main>
 <script src="js/main.js"></script>
 <script src="js/paralax.js">

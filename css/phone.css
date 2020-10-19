@@ -1,0 +1,109 @@
+@media screen and (max-width: 560px) {
+
+    .paralax{
+        display: none;
+    }
+
+    #mainPhotoParalax{
+        display: flex;
+    }
+
+    #welcomeText{
+        text-align: center;
+    }
+
+    nav{
+        margin-left: 10%;
+    }
+
+
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .topnav.responsive {
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    header .topnav.responsive {
+        height: 400px;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: 50px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: -40px;
+        border-bottom: none;
+        font-size: 20px;
+    }
+
+    .team__cards{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    .main__about{
+        flex-direction:  column;
+    }
+    .about__right{
+        text-align:  center;
+        margin-left: 10px;
+    }
+    .about__right li{
+        text-align: left;
+    }
+    .mw-100{
+        margin-top: 0;
+        max-width: 100%;
+        margin-left: -20px;
+    }
+
+    #colours{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 100px;
+    }
+
+    .complectation{
+        flex-direction: column;
+    }
+
+    .buttConf{
+        margin-top: 50px;
+    }
+
+    #mainPhotoParalax{
+        width: 100%;
+        display: flex;
+    }
+}
