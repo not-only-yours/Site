@@ -63,7 +63,6 @@
     .team__cards{
         flex-direction: column;
         width: 100%;
-
     }
 
     .card{
@@ -74,6 +73,7 @@
 
     .main__about{
         flex-direction:  column;
+        margin-left: 50px;
     }
     .about__right{
         text-align:  center;
