@@ -183,13 +183,17 @@ main .main__about{
 h6{
     font-size: 80% !important;
 }
-h3{
+.confText p{
+    font-weight: bold;
+    color: #fcac45;
+    text-align: center;
     font-size: 200%;
 }
 
 
 @media screen and (max-width: 1280px) {
-    h6{
+    .confText p{
+        color: #fcac45;
     font-size: 50% !important;
     }
 
