@@ -1,4 +1,5 @@
 header{
+    margin-top: 100px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -6,6 +7,11 @@ header{
     display: flex;
     padding-bottom: 3px;
     z-index: 1000000;
+}
+
+.imgButton{
+    width: 50px;
+    margin-bottom: 5px;
 }
 
 nav{
@@ -26,6 +32,7 @@ body{
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
 .topnav a:hover{
@@ -193,9 +200,11 @@ main .main__about{
     }
 
     .topnav a.icon {
+        margin-bottom: 30px;
+        margin-top: -30px;
+        margin-right: 120px;
         float: right;
-        margin-top: -17px;
-        display: block;
+        display: flex;
         color: #fff;
         font-size: 25px;
     }
@@ -206,18 +215,20 @@ main .main__about{
 
     .topnav.responsive {
         position: relative;
-        top: 50px;
-        left: -200px;
+        top: 110px;
+        left: -150px;
+        margin-bottom: 60px;
     }
 
     header .topnav.responsive {
         height: 340px;
+        margin-top: -20px;
     }
 
     .topnav.responsive a.icon {
         position: absolute;
-        top: -50px;
-        right: -200px;
+        top: -5px;
+        right: -150px;
     }
 
     .topnav.responsive a {
@@ -356,4 +367,25 @@ p {
     height: 30px;
     border: 4px inset powderblue
 }
+
+ .topLine{
+     background: black;
+     color: white;
+     position: fixed;
+     top: 0; left: 0;
+     width: 100%;
+     transition: all .3s ease;
+ }
+
+ .topLine.out{
+     transform: translateY(-100%);
+ }
+
+ #topMenuOne{
+     margin-top: -50px;
+     margin-bottom: 30px;
+ }
+
+
+
 

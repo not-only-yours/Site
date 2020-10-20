@@ -2,8 +2,26 @@ $(window).on('beforeunload', function (){
     $(window).scrollTop(0);
 })
 
-menu.onclick = function() {
 
+var header = $('.topLine'),
+    scrollPrev = 0;
+
+
+
+window.scroll(function() {
+    var scrolled = $(window).scrollTop();
+    if( document.getElementById('myTopnav').className === 'topnav') {
+        if (scrolled > 100 && scrolled > scrollPrev) {
+            header.addClass('out');
+        } else {
+            header.removeClass('out');
+        }
+        scrollPrev = scrolled;
+    }
+});
+
+
+menu.onclick = function() {
     var x = document.getElementById('myTopnav');
     if (x.className === "topnav") {
         x.className += " responsive";
@@ -63,16 +81,15 @@ function fouth(){
 }
 
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    scrollTo(document.getElementById('mainPhotoParalax'));
 }
 
 function seeCar(){
-    document.getElementById("cars").scrollIntoView({ block:"center",behavior: 'wrapper' });
+    scrollTo(document.getElementById('CarsSection'));
 }
 
 function seeConf(){
-    document.getElementById("displayInfoAboutCar").scrollIntoView({ block:"center",behavior: 'wrapper' });
+    scrollTo(document.getElementById('ConfSection'));
 }
 
 window.addEventListener('scroll', function() {
@@ -80,3 +97,15 @@ window.addEventListener('scroll', function() {
     document.getElementById("topMenuOne").style.top = -value;
 
 });
+
+function scrollTo(element){
+    window.scroll({
+        left: 0,
+        top: element.offsetTop,
+        behavior: "smooth"
+    })
+}
+
+
+
+
