@@ -50,12 +50,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\css" />
+      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
     </key>
   </component>
@@ -72,7 +72,7 @@
       <workItem from="1602775253952" duration="1551000" />
       <workItem from="1602837407044" duration="151000" />
       <workItem from="1602939814204" duration="10652000" />
-      <workItem from="1602951233260" duration="21031000" />
+      <workItem from="1602951233260" duration="22199000" />
     </task>
     <servers />
   </component>
