@@ -1,3 +1,7 @@
+$(window).on('beforeunload', function (){
+    $(window).scrollTop(0);
+})
+
 var header = $('.topLine'),
     scrollPrev = 0;
 
