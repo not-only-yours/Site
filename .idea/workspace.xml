@@ -45,18 +45,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
-      <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\css" />
+      <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
     </key>
   </component>
@@ -75,7 +75,7 @@
       <workItem from="1602939814204" duration="10652000" />
       <workItem from="1602951233260" duration="43622000" />
       <workItem from="1603551627673" duration="1195000" />
-      <workItem from="1603552832871" duration="1366000" />
+      <workItem from="1603552832871" duration="2213000" />
     </task>
     <servers />
   </component>

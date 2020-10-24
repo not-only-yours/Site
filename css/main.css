@@ -414,6 +414,11 @@ p {
     border: 4px inset powderblue
 }
 
+.colors:hover{
+    transform: scale(1.2,1.2);
+    border: 4px inset red;
+}
+
  .topLine{
      background: black;
      color: white;
