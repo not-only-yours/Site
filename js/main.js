@@ -1,15 +1,8 @@
-$(window).on('beforeunload', function (){
-    $(window).scrollTop(0);
-})
-
-
 var header = $('.topLine'),
     scrollPrev = 0;
 
 $(window).scroll(function() {
     var scrolled = $(window).scrollTop();
-
-
     if( document.getElementById('myTopnav').className === 'topnav') {
         if (scrolled > 100 && scrolled > scrollPrev) {
             header.addClass('out');

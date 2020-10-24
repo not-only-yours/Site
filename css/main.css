@@ -14,6 +14,11 @@ header{
     margin-bottom: 5px;
 }
 
+.imgButton:hover{
+    transform: scale(1.2,1.2);
+    transition-duration: .2s;
+}
+
 nav{
     margin-top: 40px;
     margin-left: 25%;
@@ -35,13 +40,17 @@ body{
     margin-bottom: 5px;
 }
 
+
 .topnav a:hover{
     border-bottom: 3px solid #fcac45;
 }
 
+
+
 .topnav .icon{
     display: none;
 }
+
 
 #welcome{
     background-color: black;
@@ -181,8 +190,9 @@ main .main__about{
 }
 
 h6{
-    font-size: 80% !important;
+    font-size: 80%;
 }
+
 .confText p{
     font-weight: bold;
     color: #fcac45;
@@ -191,10 +201,35 @@ h6{
 }
 
 
+
+@media screen and (max-width: 870px) {
+    .paralax h6{
+        font-size: 40%;
+    }
+
+    .imgButton{
+        width: 70px;
+    }
+}
+
+
+
 @media screen and (max-width: 1280px) {
+    footer > ul > li{
+        width: 100% !important;
+    }
+
+    .imgButton{
+        width: 75px;
+    }
+
     .confText p{
         color: #fcac45;
-    font-size: 50% !important;
+    font-size: 160% ;
+    }
+
+    h6{
+        font-size: 60%;
     }
 
     #welcomeText{
@@ -397,6 +432,51 @@ p {
      margin-bottom: 30px;
  }
 
+ footer{
+     background-color: #5a5a5a;
+ }
+
+footer > ul > li{
+    width:25%;
+    float:left;
+}
+
+footer > ul > li ul li{
+    margin-left:43px;
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height:1.8;
+}
+
+footer > ul > li ul li a{
+    text-decoration: none;
+    color:#7d8691;
+}
+footer > ul > li ul li a:hover{
+    color: white;
+}
+
+footer p{
+    width: 90%;
+    margin-right: 10%;
+    padding: 9px 0;
+    line-height: 18px;
+    background-color: #5a5a5a;
+    font-weight: bold;
+    font-size: 14px;
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
 
+
+footer p:before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    margin: 0 12px 0 15px;
+    vertical-align: text-bottom;
+}
 

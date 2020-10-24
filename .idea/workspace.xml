@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,6 +56,7 @@
       <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled2\css\images" />
       <recent name="C:\Users\User\WebstormProjects\untitled2\images" />
     </key>
   </component>
@@ -72,7 +73,8 @@
       <workItem from="1602775253952" duration="1551000" />
       <workItem from="1602837407044" duration="151000" />
       <workItem from="1602939814204" duration="10652000" />
-      <workItem from="1602951233260" duration="27507000" />
+      <workItem from="1602951233260" duration="43622000" />
+      <workItem from="1603551627673" duration="637000" />
     </task>
     <servers />
   </component>
